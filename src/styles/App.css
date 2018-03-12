@@ -1,0 +1,17 @@
+body {
+	background: -webkit-linear-gradient(top, #b3b3b0 0%, #e3e2dd 500px);
+	background: linear-gradient(top, #b3b3b0 0%, #e3e2dd 500px);
+	background-color: #e3e2dd;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+}
+
+.app {
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+	width: 1008px;
+	margin: auto;
+}
+
+.panel {
+	border: 1px solid #e8e8e8 !important;
+}

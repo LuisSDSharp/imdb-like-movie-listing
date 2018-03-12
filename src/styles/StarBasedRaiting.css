@@ -1,0 +1,65 @@
+.stars-raiting {
+	display: inline-flex;
+	width: 230px;
+	padding: 2px 25px 2px 8px;
+}
+
+.stars-raiting--panel {
+	margin-bottom: 10px !important;
+	border-radius: 8px !important;
+}
+
+/* Stars only */
+.stars-raiting__stars {
+	margin-right: 8px;
+	position: relative;
+	width: 100%;
+}
+
+.stars-raiting__stars__bg-stars {
+	position: absolute;
+}
+
+.stars-raiting__stars__fg-stars {
+	position: absolute;
+	z-index: 1;
+}
+
+.stars-raiting__stars__star {
+	padding: 0 1px;
+}
+
+.stars-raiting__stars__star--fg {
+	color: #dcb14a;
+	position: relative;
+}
+
+.stars-raiting__stars__star--bg {
+	color: lightgray;
+}
+
+/* Was trying to cut the stars base
+   in score decimal but without luck
+
+.fa-star::after {
+	content: "";
+	position: absolute;
+	width: 50%; <-- with exact pression
+	height: 100%;
+	right: 0;
+} */
+
+/* Score only */
+.stars-raiting__score {
+	display: flex;
+}
+
+.stars-raiting__score__current {
+	color: #af9401;
+	font-weight: bold;
+}
+
+.stars-raiting__score__max {
+	margin: 0;
+	color: lightgray;
+}

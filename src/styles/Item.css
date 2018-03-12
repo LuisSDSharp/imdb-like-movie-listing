@@ -1,0 +1,79 @@
+.item-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.25em;
+}
+
+.item-wrapper:nth-child(odd) {
+	background-color: #f6f6f5;
+}
+
+.item-wrapper:nth-child(even) {
+	background-color: #fbfbfb;
+}
+
+.item {
+	display: flex;
+	padding: 0.72em 0.72em 1.43em 0.72em;
+}
+
+.item__cover {
+	box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+	width: 140px;
+	height: 209px;
+}
+
+.item__info {
+	padding-left: 1em;
+}
+
+.item__info--small-text {
+	font-size: 85%;
+}
+
+.item__info--paragraph {
+	margin: 0.36em 0 0.58em;
+	line-height: 140%;
+}
+
+.item__info__title {
+	display: inline-flex;
+	font-size: 15px;
+}
+
+.item__info__title__text {
+	margin: 0;
+}
+
+.item__info__title__text--movie-name {
+	margin: 0 5px;
+	color: #1d72bb;
+	font-weight: bold;
+}
+
+.item__info__title__text--gray {
+	color: #999;
+}
+
+.item__info__synopsis {
+	margin: 0.47em 0 0.7em !important;
+}
+
+.item__info__director {
+	display: inline-flex;
+	max-width: max-content;
+}
+
+.item__info__director__value {
+	margin: 0;
+	margin-left: 0.5em;
+	color: dodgerblue;
+}
+
+.review {
+	padding: 1em 4em 2em 4em;
+	background: -webkit-linear-gradient(top, grey 0%, lightgray 1em);
+	background: linear-gradient(top, gray 0%, lightgray 1em);
+	color: black;
+	font-style: italic;
+}
